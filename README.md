@@ -63,6 +63,28 @@ Dennis DevDrive is a portable development environment script that can be run dir
 
 * **Verification**: The script verifies that the Python executable being used is from the USB drive, ensuring consistency across different systems.
 
+## Directory Structure
+```
+USB Root/
+	├── data/
+	│   ├── Python/
+	│   │   ├── Python3.11/
+	│   │   ├── Python3.12/
+	│   │   └── default.txt
+	│   ├── dotnet/
+	│   ├── Java/
+	│   ├── Git/
+	│   ├── nodejs/
+	│   ├── VSCode/
+	│   ├── msys2/
+	│   ├── CMake/
+	│   └── tools/
+	│       ├── curl/
+	│       ├── openSSL/
+	│       ├── adb/
+	│       └── ffmpeg/
+	├── DennisPD.ps1
+```
 ---
 
 ## Functions
